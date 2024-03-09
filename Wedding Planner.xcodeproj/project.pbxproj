@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		968A0AED2B9B70B000D33C98 /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A0AEC2B9B70B000D33C98 /* ToolBar.swift */; };
+		96B4215F2B9B6CE700E4BD58 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4215E2B9B6CE700E4BD58 /* WidgetKit.framework */; };
+		96B421612B9B6CE700E4BD58 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B421602B9B6CE700E4BD58 /* SwiftUI.framework */; };
+		96B421642B9B6CE700E4BD58 /* DaysWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B421632B9B6CE700E4BD58 /* DaysWidgetBundle.swift */; };
+		96B421662B9B6CE700E4BD58 /* DaysWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B421652B9B6CE700E4BD58 /* DaysWidgetLiveActivity.swift */; };
+		96B421682B9B6CE700E4BD58 /* DaysWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B421672B9B6CE700E4BD58 /* DaysWidget.swift */; };
+		96B4216A2B9B6CE700E4BD58 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B421692B9B6CE700E4BD58 /* AppIntent.swift */; };
+		96B4216C2B9B6CEA00E4BD58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B4216B2B9B6CEA00E4BD58 /* Assets.xcassets */; };
+		96B421702B9B6CEA00E4BD58 /* DaysWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 96B4215C2B9B6CE700E4BD58 /* DaysWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		96E76E102B85128200EDD430 /* Wedding_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E0F2B85128200EDD430 /* Wedding_PlannerApp.swift */; };
+		96E76E122B85128200EDD430 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E112B85128200EDD430 /* ContentView.swift */; };
+		96E76E142B85128200EDD430 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E132B85128200EDD430 /* Item.swift */; };
+		96E76E162B85128800EDD430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E76E152B85128800EDD430 /* Assets.xcassets */; };
+		96E76E192B85128800EDD430 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E76E182B85128800EDD430 /* Preview Assets.xcassets */; };
+		96E76E202B85130800EDD430 /* openingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E1F2B85130800EDD430 /* openingPage.swift */; };
+		96E76E222B85179800EDD430 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E212B85179800EDD430 /* Styles.swift */; };
+		96E76E242B85522F00EDD430 /* nameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E232B85522F00EDD430 /* nameView.swift */; };
+		96E76E262B85617C00EDD430 /* colorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E252B85617C00EDD430 /* colorPickerView.swift */; };
+		96E76E2B2B85B7CE00EDD430 /* theBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E2A2B85B7CE00EDD430 /* theBudget.swift */; };
+		96E76E2D2B85BB2000EDD430 /* rings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E2C2B85BB1F00EDD430 /* rings.swift */; };
+		96E76E2F2B85C64B00EDD430 /* groom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E2E2B85C64B00EDD430 /* groom.swift */; };
+		96E76E312B85C65E00EDD430 /* bride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E302B85C65E00EDD430 /* bride.swift */; };
+		96E76E332B85C6A400EDD430 /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E322B85C6A400EDD430 /* settings.swift */; };
+		96E76E762B8D49EF00EDD430 /* ConfirmDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E752B8D49EF00EDD430 /* ConfirmDelete.swift */; };
+		96E76E782B8E458900EDD430 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E772B8E458900EDD430 /* DateView.swift */; };
+		96E76E7A2B8E4B1C00EDD430 /* ringsDueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E792B8E4B1C00EDD430 /* ringsDueDate.swift */; };
+		96E76E7C2B8E4B3600EDD430 /* WeddingDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E7B2B8E4B3600EDD430 /* WeddingDate.swift */; };
+		96E76E7E2B8E592100EDD430 /* DateOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E7D2B8E592100EDD430 /* DateOrganizer.swift */; };
+		96E76E802B90F41900EDD430 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E7F2B90F41900EDD430 /* Venue.swift */; };
+		96E76E822B90F85800EDD430 /* VenueOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E812B90F85800EDD430 /* VenueOption.swift */; };
+		96E76E862B969AF000EDD430 /* Parisienne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96E76E852B969AF000EDD430 /* Parisienne-Regular.ttf */; };
+		96E76E8B2B96B3D700EDD430 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E76E8A2B96B3D700EDD430 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96B4216E2B9B6CEA00E4BD58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E76E042B85128200EDD430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B4215B2B9B6CE700E4BD58;
+			remoteInfo = DaysWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96B421712B9B6CEA00E4BD58 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				96B421702B9B6CEA00E4BD58 /* DaysWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		968A0AEC2B9B70B000D33C98 /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
+		96B4215C2B9B6CE700E4BD58 /* DaysWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DaysWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4215E2B9B6CE700E4BD58 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		96B421602B9B6CE700E4BD58 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		96B421632B9B6CE700E4BD58 /* DaysWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysWidgetBundle.swift; sourceTree = "<group>"; };
+		96B421652B9B6CE700E4BD58 /* DaysWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		96B421672B9B6CE700E4BD58 /* DaysWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysWidget.swift; sourceTree = "<group>"; };
+		96B421692B9B6CE700E4BD58 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		96B4216B2B9B6CEA00E4BD58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96B4216D2B9B6CEA00E4BD58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E76E0C2B85128200EDD430 /* Wedding Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wedding Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E76E0F2B85128200EDD430 /* Wedding_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedding_PlannerApp.swift; sourceTree = "<group>"; };
+		96E76E112B85128200EDD430 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96E76E132B85128200EDD430 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		96E76E152B85128800EDD430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96E76E182B85128800EDD430 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96E76E1F2B85130800EDD430 /* openingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openingPage.swift; sourceTree = "<group>"; };
+		96E76E212B85179800EDD430 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		96E76E232B85522F00EDD430 /* nameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameView.swift; sourceTree = "<group>"; };
+		96E76E252B85617C00EDD430 /* colorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorPickerView.swift; sourceTree = "<group>"; };
+		96E76E2A2B85B7CE00EDD430 /* theBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theBudget.swift; sourceTree = "<group>"; };
+		96E76E2C2B85BB1F00EDD430 /* rings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rings.swift; sourceTree = "<group>"; };
+		96E76E2E2B85C64B00EDD430 /* groom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groom.swift; sourceTree = "<group>"; };
+		96E76E302B85C65E00EDD430 /* bride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bride.swift; sourceTree = "<group>"; };
+		96E76E322B85C6A400EDD430 /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		96E76E752B8D49EF00EDD430 /* ConfirmDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDelete.swift; sourceTree = "<group>"; };
+		96E76E772B8E458900EDD430 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		96E76E792B8E4B1C00EDD430 /* ringsDueDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringsDueDate.swift; sourceTree = "<group>"; };
+		96E76E7B2B8E4B3600EDD430 /* WeddingDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingDate.swift; sourceTree = "<group>"; };
+		96E76E7D2B8E592100EDD430 /* DateOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOrganizer.swift; sourceTree = "<group>"; };
+		96E76E7F2B90F41900EDD430 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		96E76E812B90F85800EDD430 /* VenueOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueOption.swift; sourceTree = "<group>"; };
+		96E76E852B969AF000EDD430 /* Parisienne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Parisienne-Regular.ttf"; sourceTree = "<group>"; };
+		96E76E892B969CE400EDD430 /* Wedding-Planner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Wedding-Planner-Info.plist"; sourceTree = SOURCE_ROOT; };
+		96E76E8A2B96B3D700EDD430 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B421592B9B6CE700E4BD58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B421612B9B6CE700E4BD58 /* SwiftUI.framework in Frameworks */,
+				96B4215F2B9B6CE700E4BD58 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E76E092B85128200EDD430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B4215D2B9B6CE700E4BD58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B4215E2B9B6CE700E4BD58 /* WidgetKit.framework */,
+				96B421602B9B6CE700E4BD58 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B421622B9B6CE700E4BD58 /* DaysWidget */ = {
+			isa = PBXGroup;
+			children = (
+				96B421632B9B6CE700E4BD58 /* DaysWidgetBundle.swift */,
+				96B421652B9B6CE700E4BD58 /* DaysWidgetLiveActivity.swift */,
+				96B421672B9B6CE700E4BD58 /* DaysWidget.swift */,
+				96B421692B9B6CE700E4BD58 /* AppIntent.swift */,
+				96B4216B2B9B6CEA00E4BD58 /* Assets.xcassets */,
+				96B4216D2B9B6CEA00E4BD58 /* Info.plist */,
+			);
+			path = DaysWidget;
+			sourceTree = "<group>";
+		};
+		96E76E032B85128200EDD430 = {
+			isa = PBXGroup;
+			children = (
+				96E76E0E2B85128200EDD430 /* Wedding Planner */,
+				96B421622B9B6CE700E4BD58 /* DaysWidget */,
+				96B4215D2B9B6CE700E4BD58 /* Frameworks */,
+				96E76E0D2B85128200EDD430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96E76E0D2B85128200EDD430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E76E0C2B85128200EDD430 /* Wedding Planner.app */,
+				96B4215C2B9B6CE700E4BD58 /* DaysWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E76E0E2B85128200EDD430 /* Wedding Planner */ = {
+			isa = PBXGroup;
+			children = (
+				96E76E892B969CE400EDD430 /* Wedding-Planner-Info.plist */,
+				96E76E0F2B85128200EDD430 /* Wedding_PlannerApp.swift */,
+				96E76E112B85128200EDD430 /* ContentView.swift */,
+				96E76E8A2B96B3D700EDD430 /* Home.swift */,
+				968A0AEC2B9B70B000D33C98 /* ToolBar.swift */,
+				96E76E1F2B85130800EDD430 /* openingPage.swift */,
+				96E76E232B85522F00EDD430 /* nameView.swift */,
+				96E76E7B2B8E4B3600EDD430 /* WeddingDate.swift */,
+				96E76E252B85617C00EDD430 /* colorPickerView.swift */,
+				96E76E2A2B85B7CE00EDD430 /* theBudget.swift */,
+				96E76E2C2B85BB1F00EDD430 /* rings.swift */,
+				96E76E792B8E4B1C00EDD430 /* ringsDueDate.swift */,
+				96E76E2E2B85C64B00EDD430 /* groom.swift */,
+				96E76E302B85C65E00EDD430 /* bride.swift */,
+				96E76E7F2B90F41900EDD430 /* Venue.swift */,
+				96E76E812B90F85800EDD430 /* VenueOption.swift */,
+				96E76E322B85C6A400EDD430 /* settings.swift */,
+				96E76E752B8D49EF00EDD430 /* ConfirmDelete.swift */,
+				96E76E7D2B8E592100EDD430 /* DateOrganizer.swift */,
+				96E76E772B8E458900EDD430 /* DateView.swift */,
+				96E76E212B85179800EDD430 /* Styles.swift */,
+				96E76E132B85128200EDD430 /* Item.swift */,
+				96E76E152B85128800EDD430 /* Assets.xcassets */,
+				96E76E172B85128800EDD430 /* Preview Content */,
+				96E76E852B969AF000EDD430 /* Parisienne-Regular.ttf */,
+			);
+			path = "Wedding Planner";
+			sourceTree = "<group>";
+		};
+		96E76E172B85128800EDD430 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96E76E182B85128800EDD430 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B4215B2B9B6CE700E4BD58 /* DaysWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B421742B9B6CEA00E4BD58 /* Build configuration list for PBXNativeTarget "DaysWidgetExtension" */;
+			buildPhases = (
+				96B421582B9B6CE700E4BD58 /* Sources */,
+				96B421592B9B6CE700E4BD58 /* Frameworks */,
+				96B4215A2B9B6CE700E4BD58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaysWidgetExtension;
+			productName = DaysWidgetExtension;
+			productReference = 96B4215C2B9B6CE700E4BD58 /* DaysWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		96E76E0B2B85128200EDD430 /* Wedding Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E76E1C2B85128800EDD430 /* Build configuration list for PBXNativeTarget "Wedding Planner" */;
+			buildPhases = (
+				96E76E082B85128200EDD430 /* Sources */,
+				96E76E092B85128200EDD430 /* Frameworks */,
+				96E76E0A2B85128200EDD430 /* Resources */,
+				96B421712B9B6CEA00E4BD58 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B4216F2B9B6CEA00E4BD58 /* PBXTargetDependency */,
+			);
+			name = "Wedding Planner";
+			packageProductDependencies = (
+			);
+			productName = "Wedding Planner";
+			productReference = 96E76E0C2B85128200EDD430 /* Wedding Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E76E042B85128200EDD430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					96B4215B2B9B6CE700E4BD58 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					96E76E0B2B85128200EDD430 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 96E76E072B85128200EDD430 /* Build configuration list for PBXProject "Wedding Planner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96E76E032B85128200EDD430;
+			packageReferences = (
+			);
+			productRefGroup = 96E76E0D2B85128200EDD430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E76E0B2B85128200EDD430 /* Wedding Planner */,
+				96B4215B2B9B6CE700E4BD58 /* DaysWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B4215A2B9B6CE700E4BD58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4216C2B9B6CEA00E4BD58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E76E0A2B85128200EDD430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E76E192B85128800EDD430 /* Preview Assets.xcassets in Resources */,
+				96E76E162B85128800EDD430 /* Assets.xcassets in Resources */,
+				96E76E862B969AF000EDD430 /* Parisienne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B421582B9B6CE700E4BD58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B421642B9B6CE700E4BD58 /* DaysWidgetBundle.swift in Sources */,
+				96B4216A2B9B6CE700E4BD58 /* AppIntent.swift in Sources */,
+				96B421682B9B6CE700E4BD58 /* DaysWidget.swift in Sources */,
+				96B421662B9B6CE700E4BD58 /* DaysWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E76E082B85128200EDD430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E76E122B85128200EDD430 /* ContentView.swift in Sources */,
+				96E76E312B85C65E00EDD430 /* bride.swift in Sources */,
+				96E76E8B2B96B3D700EDD430 /* Home.swift in Sources */,
+				96E76E782B8E458900EDD430 /* DateView.swift in Sources */,
+				96E76E332B85C6A400EDD430 /* settings.swift in Sources */,
+				96E76E242B85522F00EDD430 /* nameView.swift in Sources */,
+				96E76E2B2B85B7CE00EDD430 /* theBudget.swift in Sources */,
+				96E76E202B85130800EDD430 /* openingPage.swift in Sources */,
+				96E76E142B85128200EDD430 /* Item.swift in Sources */,
+				96E76E7E2B8E592100EDD430 /* DateOrganizer.swift in Sources */,
+				96E76E2D2B85BB2000EDD430 /* rings.swift in Sources */,
+				96E76E762B8D49EF00EDD430 /* ConfirmDelete.swift in Sources */,
+				96E76E2F2B85C64B00EDD430 /* groom.swift in Sources */,
+				96E76E262B85617C00EDD430 /* colorPickerView.swift in Sources */,
+				96E76E802B90F41900EDD430 /* Venue.swift in Sources */,
+				96E76E822B90F85800EDD430 /* VenueOption.swift in Sources */,
+				96E76E7C2B8E4B3600EDD430 /* WeddingDate.swift in Sources */,
+				96E76E7A2B8E4B1C00EDD430 /* ringsDueDate.swift in Sources */,
+				968A0AED2B9B70B000D33C98 /* ToolBar.swift in Sources */,
+				96E76E222B85179800EDD430 /* Styles.swift in Sources */,
+				96E76E102B85128200EDD430 /* Wedding_PlannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96B4216F2B9B6CEA00E4BD58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B4215B2B9B6CE700E4BD58 /* DaysWidgetExtension */;
+			targetProxy = 96B4216E2B9B6CEA00E4BD58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96B421722B9B6CEA00E4BD58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W25U2U8T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaysWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DaysWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jaydemorga.Wedding-Planner.DaysWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B421732B9B6CEA00E4BD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W25U2U8T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaysWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DaysWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jaydemorga.Wedding-Planner.DaysWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96E76E1A2B85128800EDD430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96E76E1B2B85128800EDD430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96E76E1D2B85128800EDD430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wedding Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W25U2U8T6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wedding-Planner-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jaydemorga.Wedding-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		96E76E1E2B85128800EDD430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wedding Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W25U2U8T6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wedding-Planner-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jaydemorga.Wedding-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B421742B9B6CEA00E4BD58 /* Build configuration list for PBXNativeTarget "DaysWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B421722B9B6CEA00E4BD58 /* Debug */,
+				96B421732B9B6CEA00E4BD58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E76E072B85128200EDD430 /* Build configuration list for PBXProject "Wedding Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E76E1A2B85128800EDD430 /* Debug */,
+				96E76E1B2B85128800EDD430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E76E1C2B85128800EDD430 /* Build configuration list for PBXNativeTarget "Wedding Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E76E1D2B85128800EDD430 /* Debug */,
+				96E76E1E2B85128800EDD430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96E76E042B85128200EDD430 /* Project object */;
+}
